@@ -41,3 +41,10 @@ Easy to import and use.
 * unique([1,1,3,3,5,6,6,6])
 
         [1, 3, 5, 6]
+
+* arr2lse(['dog','cat'], ['meat','fish']);
+
+        localStorage:
+        [key]    [value]
+         dog      meat
+         cat      fish
