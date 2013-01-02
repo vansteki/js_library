@@ -19,6 +19,22 @@ var unique = function(arr) {
     return que;
 };
 
+var duplicate = function(arr, is_unique) {
+    var que = []; 
+    for(var i = 0; i < arr.length; i++) {
+        for(var j = i + 1; j < arr.length; j++) {
+          if(arr[i] === arr[j]){
+            j = ++i;
+            que.push(arr[i]);
+          }
+        }  
+    }
+  if(is_unique)
+    return unique(que);
+  else
+    return que;  
+};
+
 var arr2lse = function(arr_domain, arr_val){
   if(arr_domain.length != arr_val.length) return 0;
   for(var i=0; i< arr_domain.length; i++){
