@@ -8,7 +8,7 @@ var isInArray = function(target, arr) {
         return 0;
 };
 
-var unique = function(arr) {
+var getUnique = function(arr) {
     var que = [];
     for(var i = 0; i < arr.length; i++) {
         for(var j = i + 1; j < arr.length; j++) {
@@ -19,7 +19,7 @@ var unique = function(arr) {
     return que;
 };
 
-var duplicate = function(arr) {
+var getDuplicate = function(arr) {
     var que = []; 
     for(var i = 0; i < arr.length; i++) {
         for(var j = i + 1; j < arr.length; j++) {
@@ -29,7 +29,7 @@ var duplicate = function(arr) {
           }
         }  
     }
-    return unique(que);
+    return getUnique(que);
 };
 
 var arr2lse = function(arr_domain, arr_val){
