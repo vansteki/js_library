@@ -34,7 +34,7 @@ Easy to import and use.
         u72fbanu+$
 
 #### array.js
-* isInArray(2, [1,2,5,])
+* isInArray(2, [1,2,5])
 
         true
         
