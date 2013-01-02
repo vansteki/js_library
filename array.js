@@ -7,3 +7,15 @@ var isInArray = function(target, arr) {
     else 
         return false;
 };
+
+var unique = function(arr) {
+    var que = [];
+
+    for(var i = 0; i < arr.length; i++) {
+        for(var j = i + 1; j < arr.length; j++) {
+          if(arr[i] === arr[j]) j = ++i;
+        }
+        que.push(arr[i]);
+    }
+    return que;
+};
