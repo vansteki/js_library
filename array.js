@@ -3,9 +3,9 @@ var isInArray = function(target, arr) {
     for(var i =0; i < arr.length; i++)
         if(target == arr[i]) que.push(arr[i]);
     if(que.length > 0)
-        return true;
+        return 1;
     else 
-        return false;
+        return 0;
 };
 
 var unique = function(arr) {
@@ -20,9 +20,9 @@ var unique = function(arr) {
 };
 
 var arr2lse = function(arr_domain, arr_val){
-  if(arr_domain.length != arr_val.length) return false;
+  if(arr_domain.length != arr_val.length) return 0;
   for(var i=0; i< arr_domain.length; i++){
       localStorage.setItem(arr_domain[i], arr_val[i]);
   }
-  return true;
+  return 1;
 };
