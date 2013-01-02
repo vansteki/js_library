@@ -38,3 +38,6 @@ Easy to import and use.
 
         true
         
+* unique([1,1,3,3,5,6,6,6])
+
+        [1, 3, 5, 6]
