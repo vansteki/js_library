@@ -27,3 +27,10 @@ Easy to import and use.
 * patchZero(99, 4)
 
         0099
+
+#### math.js
+* hybridRand(7,"u","+$")
+                
+        u72fbanu+$
+
+        
