@@ -19,8 +19,10 @@ var unique = function(arr) {
     return que;
 };
 
-var arr2lse = function(n,arr_domain, arr_val){
-    for(var i=0; i<n; i++){
-        localStorage.setItem(arr_domain[i], arr_val[i]);
-    }
+var arr2lse = function(arr_domain, arr_val){
+  if(arr_domain.length != arr_val.length) return false;
+  for(var i=0; i< arr_domain.length; i++){
+      localStorage.setItem(arr_domain[i], arr_val[i]);
+  }
+  return 1;
 };
