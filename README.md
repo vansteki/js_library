@@ -38,11 +38,11 @@ Easy to import and use.
 
         true
         
-* unique([1,1,3,3,5,6,6,6])
+* getUnique([1,1,3,3,5,6,6,6])
 
         [1, 3, 5, 6]
         
-* duplicate([1,1,3,3,5,6,6,6,7])
+* getDuplicate([1,1,3,3,5,6,6,6,7])
 
         [1, 3, 6]
 
