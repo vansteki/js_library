@@ -1,4 +1,4 @@
-var HybridRand = function(length, prifix, suffix){
+var hybridRand = function(length, prifix, suffix){
     if(isNaN(length)) length = 6;
     prifix = prifix || '';
     suffix = suffix || '';
