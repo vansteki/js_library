@@ -24,5 +24,5 @@ var arr2lse = function(arr_domain, arr_val){
   for(var i=0; i< arr_domain.length; i++){
       localStorage.setItem(arr_domain[i], arr_val[i]);
   }
-  return 1;
+  return true;
 };
