@@ -14,6 +14,7 @@ Easy to import and use.
 * daysInMonth("2013,2")
 
         28
+
 #### convert.js
 * asc2str(65)
 
@@ -21,6 +22,7 @@ Easy to import and use.
 * urlDecode("type%3Dvideo")
 
         type=video
+
 #### patchZero.js
 * patchZero(99, 4)
 
