@@ -19,7 +19,7 @@ var unique = function(arr) {
     return que;
 };
 
-var duplicate = function(arr, is_unique) {
+var duplicate = function(arr) {
     var que = []; 
     for(var i = 0; i < arr.length; i++) {
         for(var j = i + 1; j < arr.length; j++) {
@@ -29,10 +29,7 @@ var duplicate = function(arr, is_unique) {
           }
         }  
     }
-  if(is_unique)
     return unique(que);
-  else
-    return que;  
 };
 
 var arr2lse = function(arr_domain, arr_val){
