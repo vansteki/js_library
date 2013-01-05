@@ -39,3 +39,17 @@ var arr2lse = function(arr_domain, arr_val){
   }
   return 1;
 };
+
+var desc = function(x,y) {
+	if (x > y) 
+	return -1;
+	if (x < y) 
+	return 1;
+};
+
+var asc = function(x,y) {
+	if (x > y) 
+	return 1;
+	if (x < y) 
+	return -1;
+};

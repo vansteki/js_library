@@ -52,3 +52,11 @@ Easy to import and use.
         [key]    [value]
          dog      meat
          cat      fish
+
+* [3, 1, 2, 4].sort(desc)
+
+        [4, 3, 2, 1]
+		
+* [3, 1, 2, 4].sort(asc)
+
+        [1, 2, 3, 4]
