@@ -12,3 +12,12 @@ var fromTimestampToDate = function(timestamp) {
 var daysInMonth = function(year, month) {
   return new Date(year, month, 0).getDate();
 };
+
+var sleep = function (milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+};
