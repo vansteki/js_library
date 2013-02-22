@@ -1,10 +1,10 @@
 js_library
 ==========
 
-Easy to import and use.
+Easy to import and use. ([gist-it](http://gist-it.appspot.com/))
 
-### Document
-#### date.js
+## Document
+### date.js
 * fromDateToTimestamp("2012/12/31")
 
         1356933600
@@ -15,7 +15,7 @@ Easy to import and use.
 
         28
 
-#### convert.js
+### convert.js
 * asc2str(65)
 
         A
@@ -23,17 +23,17 @@ Easy to import and use.
 
         type=video
 
-#### patchZero.js
+### patchZero.js
 * patchZero(99, 4)
 
         0099
 
-#### math.js
+### math.js
 * hybridRand(7,"u","+$")
                 
         u72fbanu+$
 
-#### array.js
+### array.js
 * isInArray(2, [1,2,5])
 
         true
